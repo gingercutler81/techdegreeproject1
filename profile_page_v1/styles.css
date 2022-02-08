@@ -160,6 +160,9 @@ a.linkedin {
 a.facebook {
   background-image: url("images/faceboook.svg");
 }
+a.github {
+  background-image: url("images/github-04.svg");
+}
 a.social:hover {
   opacity: 1;
 }
@@ -202,8 +205,5 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
-
 .experience {
 }
