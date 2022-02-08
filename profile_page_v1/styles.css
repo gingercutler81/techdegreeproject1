@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -110,14 +110,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #C82121;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #011A9D;
 }
 
 footer {
@@ -148,17 +148,17 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: 100%;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.instagram {
+  background-image: url("images/instagram.svg");
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(images/linkedin2.svg);
 }
-a.github {
-  background-image: url(images/github.svg);
+a.facebook {
+  background-image: url("images/faceboook.svg");
 }
 a.social:hover {
   opacity: 1;
@@ -205,3 +205,5 @@ a.social:hover {
 
 }
 
+.experience {
+}
